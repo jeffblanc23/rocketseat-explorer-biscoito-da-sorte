@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+
+.screen1 {
+    width: 42.8rem;
+    padding: 6.8rem 6.4rem;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.8);
+
+    border-radius: .5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.screen2 {
+    padding: 6.8rem 6.4rem;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.8);
+    
+    border-radius: .5rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 64px;
+    gap: 10px;
+    
+}
+
+.hide {
+    display: none;
+}
+
+.screen1 h1 {
+    width: 25.85rem;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    text-align: center;
+    color: #34355B;
+
+    margin-bottom: 1.4rem;
+}
+
+.screen1 h2 {
+    font-family: 'DM Sans', sans-serif;
+
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #34355B;
+
+    margin-bottom: 2rem;
+}
+
+.screen2 h1 {
+    width: 29.7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    text-align: center;
+
+    color: #34355B;
+}
+
+.screen2 .lucky-card {
+    width: 29.3rem;
+    padding: 1rem;
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+}
+.screen2 h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+}
+
+.screen2 button {
+    width: 17.4rem;
+    height: 5.2rem;
+    padding: 1.6rem;
+
+    background: #FF9500;
+    border-radius: .4rem;
+
+    font-family: 'DM Sans', sans-serif;
+
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+img.shake:hover  {
+    animation: treme 0.02s;
+    animation-iteration-count: 100;
+  }
+  
+  @keyframes treme {
+    0% {margin-left: 0;}
+    25% {margin-left: 5px;}
+    50% {margin-left: 0;}
+    75% {margin-left: -5px;}
+    100% {margin-left: 0;}
+  }
